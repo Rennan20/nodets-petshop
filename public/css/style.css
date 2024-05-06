@@ -121,6 +121,63 @@ footer {
   color: var(--main);
 }
 
+/* Estilos para a página de login */
+.login {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #102581;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login button[type="submit"]:hover {
+  background-color: #091a3c;
+}
+
+/* Estilos para o botão de logout */
+.logout-form button[type="submit"] {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-form button[type="submit"]:hover {
+  background-color: #c82333;
+}
+
 @media (max-width: 900px) {
   .list {
     grid-template-columns: repeat(4, 1fr);
